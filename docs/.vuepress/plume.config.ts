@@ -7,7 +7,7 @@ export default defineThemeConfig({
   aside: true, // 页内侧边栏， 默认显示在右侧
   outline: [2, 3], // 页内大纲， 默认显示 h2, h3  
   social: [
-    { icon: 'github', link: 'https://github.com/StickyHomeworks2/Sh2_docs' },
+    { icon: 'github', link: 'https://github.com/belugaQAQ/WanWanDocs_Plume' },
     { icon: 'fluent:map-24-filled',link: 'http://mc.classisband.xyz:42764/'},
   ],
   navbarSocialInclude: ['github', 'fluent:map-24-filled'],
