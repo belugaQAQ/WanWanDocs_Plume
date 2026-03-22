@@ -4,11 +4,11 @@ icon: fluent:box-checkmark-16-filled
 createTime: 2026/03/21 20:51:33
 permalink: /doc/command/image2map
 ---
-::: details 请注意
+::: warning 请注意
 该功能需要在客户端安装[image2map](https://modrinth.com/mod/image2map) Mod  
 否则无法正常使用功能
 :::
-::: info 关于\_<URL>
+::: info 关于"URL"
 URL必须为==直链==  
 并且图片格式须为 ==PNG== (否则可能无法识别)
 :::

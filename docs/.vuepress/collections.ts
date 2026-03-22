@@ -39,7 +39,7 @@ const Doc = defineCollection({
     {
       text: "指令",
       prefix: "/doc/command/",
-      items: ["easyauth","skin","mcdr","fakeplayer","essential","ledger","image2map"],
+      items: ["easyauth","skin","mcdr","fakeplayer","essential","ledger","image2map","sit"],
     },
   ],
 });
