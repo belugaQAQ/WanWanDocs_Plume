@@ -4,13 +4,13 @@ WanWanCraft的新版文档
 
 使用 [vuepress](https://vuepress.vuejs.org/) 和 [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume) 构建生成   
 
-## Install
+## 安装
 
 ```sh
 pnpm i
 ```
 
-## Usage
+## 使用
 
 ```sh
 # 启动开发服务
