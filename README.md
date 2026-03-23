@@ -1,6 +1,6 @@
 # **WanWanCraftDocs**
 
-WanWanCraft的新版文档
+WanWanCraft的新版文档wan
 
 使用 [vuepress](https://vuepress.vuejs.org/) 和 [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume) 构建生成   
 
