@@ -1,5 +1,5 @@
 # 工作流的名称，如果省略，则使用当前文件名
-name: 自动构建GithubPages
+name: 自动构建并部署GithubPages
 
 # 从工作流生成的工作流运行的名称，如果省略，则使用提交时的commit信息
 run-name: 触发于${{ github.actor }}提交
