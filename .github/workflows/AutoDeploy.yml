@@ -15,7 +15,7 @@ on:
 jobs:
   my_first_job:
     # 任务的名称，不设置则默认my_first_job
-    name: 构建并提交gh-pages
+    name: 构建并部署gh-pages
 
     # 运行所需要的虚拟机环境
     runs-on: ubuntu-latest
@@ -23,14 +23,14 @@ jobs:
     # 每个任务下的运行步骤，短横杠 - 表示一个步骤，从上至下依次执行。
     steps:
       # clone 该仓库的源码到工作流中
-      - name: Clone Code
+      - name: Clone代码
         uses: actions/checkout@v3
         with:
           # "最近更新时间"等 git 日志相关信息，需要拉取全部提交记录
           fetch-depth: 0
 
       # 安装 Node 环境
-      - name: Setup Node.js
+      - name: 安装Node.js 22
         uses: actions/setup-node@v3
         with:
           # 选择要使用的 node 版本
@@ -38,7 +38,7 @@ jobs:
 
       # 如果你的依赖是使用npm的，用这种
       # 缓存 npm node_modules
-      - name: Cache dependencies
+      - name: 缓存依赖项
         uses: actions/cache@v3
         with:
           path: ~/.npm
@@ -47,17 +47,17 @@ jobs:
             ${{ runner.os }}-npm-cache-
 
       # 安装依赖 npm
-      - name: Install dependencies
+      - name: 安装依赖项
         # 如果没有命中缓存才执行 npm install
         if: steps.cache-deps.outputs.cache-hit != 'true'
         run: npm install
 
       # 运行构建脚本
-      - name: Run Build Script
+      - name: 构建
         run: npm run docs:build
 
       # 部署到 GitHub Pages
-      - name: Deploy to GitHub Pages
+      - name: 部署Github—Pages
         # 此actions的官方文档 https://github.com/JamesIves/github-pages-deploy-action
         uses: JamesIves/github-pages-deploy-action@v4
         with:
