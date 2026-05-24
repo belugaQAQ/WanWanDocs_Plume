@@ -11,8 +11,8 @@ permalink: /doc/guide/info/
 支持BE: 1.21.70 ~ 1.21.94  
 服务器类型：生电·互通  
 地图种子：`-4914857033208116357`  
-JE服务器地址：`mc.classisband.xyz:37372`  
-BE服务器地址：`mc.classisband.xyz` 端口：`37372`  
+JE服务器地址：`mc.classisband.xyz:19269`  
+BE服务器地址：`mc.classisband.xyz` 端口：`19269`  
 未开启正版验证  
 ::: warning 
 请注意，有很多玩家胡乱下载基岩端来群里求助  
