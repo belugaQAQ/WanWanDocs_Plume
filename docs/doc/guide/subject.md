@@ -7,11 +7,11 @@ permalink: /doc/guide/info/
 
 ## **服务器详情**
 
-服务器核心：Java1.21.8 Fabric端  
-支持BE: 1.21.70 ~ 1.21.94  
+服务器核心：Java1.21.11 Fabric端  
+支持BE: 1.21.111 ~ 26.3  
 服务器类型：生电·互通  
 地图种子：`-4914857033208116357`  
-JE服务器地址：`mc.classisband.xyz:19269`  
+JE服务器地址：`mc.classisband.xyz`  
 BE服务器地址：`mc.classisband.xyz` 端口：`19269`  
 未开启正版验证  
 ::: warning 
@@ -31,6 +31,8 @@ BE服务器地址：`mc.classisband.xyz` 端口：`19269`
 整合包Mod均可删除，建议保留Music Hud
 <LinkCard title="Music Hud&#12288;&#12288;&#12288;作者: Etern_" href="https://modrinth.com/mod/music-hud" />  
 在服务器按 `M` 键可以打开点歌界面  
+
+整合包还安装了其它很多MOD，请自行设置键位
 
 ### **网页地图**
 
