@@ -7,7 +7,7 @@ WanWanCraft的新版文档wan
 ## 安装
 
 ```sh
-pnpm i
+npm i
 ```
 
 ## 使用
