@@ -15,7 +15,7 @@ JE服务器地址：`mc.classisband.xyz`
 BE服务器地址：`mc.classisband.xyz` 端口：`19269`  
 未开启正版验证  
 ::: warning 
-请注意，有很多玩家胡乱下载基岩端来群里求助  
+请注意，有玩家胡乱下载基岩端来群里求助  
 客户端必须是支持的才能进入服务器!!!  
 你可以在[MCAPKS](https://mcapks.net/)下载安卓基岩端
 :::
@@ -30,12 +30,12 @@ BE服务器地址：`mc.classisband.xyz` 端口：`19269`
 <LinkCard title="XeKr红显&#12288;&#12288;&#12288;作者: Xe_Kr" href="https://modrinth.com/resourcepack/xk-redstone-display" />
 整合包Mod均可删除，建议保留Music Hud
 <LinkCard title="Music Hud&#12288;&#12288;&#12288;作者: Etern_" href="https://modrinth.com/mod/music-hud" />  
-在服务器按 `M` 键可以打开点歌界面  
+在服务器按 `左Alt` 键可以打开点歌界面  
 
 整合包还安装了其它很多MOD，请自行设置键位
 
 ### **网页地图**
 
 使用`Bluemap`搭建的服务器地图  
-<LinkCard title="3D高清在线地图" href="http://mc.classisband.xyz:42764/" /> 
-==禁止刷流=={.warning}!!!否则将关闭网页地图  
+<LinkCard title="3D高清在线地图" href="http://world.classisband.xyz" /> 
+==禁止刷流=={.warning}!!!
